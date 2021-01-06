@@ -1,0 +1,45 @@
+{
+  "name": "TaskManager-Pro",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "lodash.compose": "^2.4.1",
+    "material-ui": "^0.18.5",
+    "react": "^15.6.1",
+    "react-bootstrap": "^0.31.0",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "react-swipeable-views": "^0.12.3",
+    "react-tap-event-plugin": "^2.0.1",
+    "redux": "^3.7.0",
+    "reselect": "^3.0.1",
+    "sfcookies": "^1.0.2",
+    "webpack": "^3.0.0"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.0",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "html-webpack-plugin": "^2.29.0",
+    "react-scripts": "1.0.7",
+    "style-loader": "^0.18.2",
+    "svg-inline-loader": "^0.7.1",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "create": "webpack"
+  }
+}
